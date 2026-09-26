@@ -12,7 +12,7 @@ Built with `python3 build.py` (the chrome lives there; edit it, not the HTML) an
 
 | Page | Calendar | Scoped to |
 |---|---|---|
-| `index.html` — Find a swim time | [`4yDZ3OFs…`](https://www.poolrelay.com/v/4yDZ3OFsq5WkNdhi2zmxUw) | both pools, one day, a row per pool; **Teams** menu |
+| `index.html` — Find a swim time | [`4yDZ3OFs…`](https://www.poolrelay.com/v/4yDZ3OFsq5WkNdhi2zmxUw) | one pool at a time, lane by lane; **Pools** menu; **Teams** menu |
 | `week.html` | [`zgwZ3RYl…`](https://www.poolrelay.com/v/zgwZ3RYlPRRanWwEYspZW9) | one campus, the whole week; **Facilities** menu, opens on North |
 | `lap-swim.html` | [`Glpoiwy4…`](https://www.poolrelay.com/v/Glpoiwy4qOzsSJ8ZCKLmLy) | lap swim plus the high school blocks that close the pool |
 | `swim-lessons.html` | [`489jlY8A…`](https://www.poolrelay.com/v/489jlY8AAwllA22oMASAF6) | group lessons (South Campus is the only one with sessions) |
@@ -30,8 +30,8 @@ Built with `python3 build.py` (the chrome lives there; edit it, not the HTML) an
 
 ## What is ours
 
-- **Everything is booked on the pool itself.** No page says which lanes lap swim keeps, so classes, lessons and
-  team practice overlap lap swim on the same pool.
+- **Lanes:** North 8 (25 yd), South 6 (25 yd), per places2swim. No page says which lanes lap swim keeps, so lane
+  numbers are our estimate.
 - **South Campus lap swim** follows the Hours page (7–3:30, then 4:30–6 on 2 lanes), not the schedule
   (7–6 straight), because the Hours page names the lanes.
 - **High school practice and meets** are open-ended weekly series, as the schedule lists them.

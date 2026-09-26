@@ -13,7 +13,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 # Published Pool Relay views. Each is scoped to exactly what its page is about.
 EMBED = {
-    "finder":  "4yDZ3OFsq5WkNdhi2zmxUw",   # both pools, one day, a row per pool; Teams menu
+    "finder":  "4yDZ3OFsq5WkNdhi2zmxUw",   # one campus pool at a time, lane by lane; Pools and Teams menus
     "week":    "zgwZ3RYlPRRanWwEYspZW9",   # one campus, the whole week; Facilities menu (opens on North)
     "lap":     "Glpoiwy4qOzsSJ8ZCKLmLy",   # lap swim plus the high school blocks that close the pool
     "lessons": "489jlY8AAwllA22oMASAF6",   # group lessons (South Campus)
@@ -154,7 +154,8 @@ QUESTIONS = """<section class="wrap">
     <li>
       <div class="q"><span class="tag ours">Ours</span>Which lanes each program uses</div>
       <div class="a">Neither campus says which lanes lap swim keeps while classes, lessons and teams are in
-      the water, so everything is booked on the pool itself and shows where programs overlap.</div>
+      the water, so the lane numbers on the calendar are our estimate: classes and lessons on the outside
+      lanes, teams on half the pool, lap swim on the rest.</div>
     </li>
   </ul>
 </section>
@@ -166,8 +167,8 @@ HUB = f"""<section class="wrap hero">
   <div class="crumb">Programs &raquo; Swimming</div>
   <h1>Find a swim time at the Y</h1>
   <p class="kicker">North Campus &middot; South Campus &middot; one calendar</p>
-  <p class="lead">Both YMCA of Collier County pools on one calendar, one row for each pool, with
-  classes, lessons and teams shown on top of lap swim when they share the water. Pick a
+  <p class="lead">Both YMCA of Collier County pools on one calendar, one pool at a time, lane by lane:
+  North Campus (8 lanes) and South Campus (6 lanes), chosen from the <strong>Pools</strong> menu. Pick a
   <strong>day</strong>, and use the <strong>Teams</strong> menu to show one program.</p>
 
 {cal("finder", "YMCA of Collier County — both pools, one day", "short",
