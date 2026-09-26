@@ -13,7 +13,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 # Published Pool Relay views. Each is scoped to exactly what its page is about.
 EMBED = {
-    "finder":  "4yDZ3OFsq5WkNdhi2zmxUw",   # both pools, one day, a row per part of each pool; Teams menu
+    "finder":  "4yDZ3OFsq5WkNdhi2zmxUw",   # both pools, one day, a row per pool; Teams menu
     "week":    "zgwZ3RYlPRRanWwEYspZW9",   # one campus, the whole week; Facilities menu (opens on North)
     "lap":     "Glpoiwy4qOzsSJ8ZCKLmLy",   # lap swim plus the high school blocks that close the pool
     "lessons": "489jlY8AAwllA22oMASAF6",   # group lessons (South Campus)
@@ -152,10 +152,9 @@ QUESTIONS = """<section class="wrap">
       pages but no published times. The Youth Swim Team's weekday 3:30&ndash;6pm comes from the Hours page.</div>
     </li>
     <li>
-      <div class="q"><span class="tag ours">Ours</span>Lap lanes, program area and team lanes</div>
+      <div class="q"><span class="tag ours">Ours</span>Which lanes each program uses</div>
       <div class="a">Neither campus says which lanes lap swim keeps while classes, lessons and teams are in
-      the water. We split each pool into a lap lane area and a program area, plus team lanes at South
-      Campus, so the calendar can show them side by side.</div>
+      the water, so everything is booked on the pool itself and shows where programs overlap.</div>
     </li>
   </ul>
 </section>
@@ -167,8 +166,8 @@ HUB = f"""<section class="wrap hero">
   <div class="crumb">Programs &raquo; Swimming</div>
   <h1>Find a swim time at the Y</h1>
   <p class="kicker">North Campus &middot; South Campus &middot; one calendar</p>
-  <p class="lead">Both YMCA of Collier County pools on one calendar, one row for each part of each pool:
-  the lap lanes, the program area where classes and lessons run, and the team lanes. Pick a
+  <p class="lead">Both YMCA of Collier County pools on one calendar, one row for each pool, with
+  classes, lessons and teams shown on top of lap swim when they share the water. Pick a
   <strong>day</strong>, and use the <strong>Teams</strong> menu to show one program.</p>
 
 {cal("finder", "YMCA of Collier County — both pools, one day", "short",
